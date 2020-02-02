@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(150, 109, 94, 0.8);
+    margin:auto;
+    background-image:url("Images/wood-grain-sanding-indiana.jpg");
+    background-repeat:repeat-y;
+    background-size:1800px 600px;
+    background-position:center top;
+    background-position:scroll;
+}
+
+#box-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+    margin:auto;
+    
+
+}
+#home{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap:50px;
+    color:rgb(184,177,171);
+    margin-left:50px;
+    margin-right:50px; 
+    margin-top:50px;
+    background-color:rgba(0,0,0,0.6);
+}
+#our-selection{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap:50px;
+    color:rgb(184,177,171);
+    margin-left:50px;
+    margin-right:50px; 
+    margin-top:50px;
+    background-color:rgba(0,0,0,0.6);
+}
+#accessories{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap:50px;
+    color:rgb(184,177,171);
+    margin-left:50px;
+    margin-right:50px; 
+    margin-top:50px;
+    background-color:rgba(0,0,0,0.6);
+}
+.text{
+    color:white;
+    text-align:center;
+    
+}
+
+div.header-img{
+    overflow:hidden;
+    position:fixed;
+    
+}
+#header-img{
+    width:400px;
+    filter:invert(100%);
+    opacity:0.8;
+    padding-left:52px;
+}
+div.nav-bar{
+    overflow:hidden;
+    position:fixed;
+    padding-left:52px;
+    top:110px;
+    
+}
+.nav-link{
+    color:rgb(184,177,171);
+    text-decoration:none;
+    text-align:center;
+    font-size:16px;
+    float:left;
+    padding: 0px 20px;
+    
+}
+.nav-link:hover{
+    background-color:rgb(150, 109, 94, 0.2);
+    
+}
+.title{
+    color:white;
+    font-size:25px;
+    margin-left:300px;
+    
+}
+#email{
+    display:block;
+    margin-left:400px;
+    width:200px;
+    padding:8px;
+    border-radius:10px;
+    border:solid;
+    border-color:rgb(184,177,171);
+    box-shadow:5px 5px 8px;
+    background-color:rgba(0,0,0,0.8);
+    
+    
+}
+#submit{
+    color:rgb(184,177,171);
+    display:block;
+    margin-left:400px;
+    width:75px;
+    padding:8px;
+    border-radius:10px;
+    border:solid;
+    border-color:rgb(184,177,171);
+    background-color:rgba(0,0,0,0.8);
+}
+#submit:hover{
+    background-color:rgb(150, 109, 94, 0.2);
+}
+#video{
+    margin:auto;
+    display:block;
+}
+@media screen and (max-width:600px){
+    body{
+        font-size:20px;
+        
+    }
+}
